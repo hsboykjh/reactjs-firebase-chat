@@ -1,0 +1,130 @@
+.App {
+  text-align: left;
+}
+
+.App-container {
+  margin-bottom: 50px;
+  border: 1px solid silver;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #4286f4;
+  /*height: 150px;*/
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* Chat chat-containers */
+.chat-container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Darker chat chat-container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.chat-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.chat-container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Style the right image */
+.chat-container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    font-size: 12px;
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    font-size: 12px;
+    float: left;
+    color: #999;
+}
+
+.App-messages {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.App-input {
+    background-color: #7aadff;
+    /*height: 150px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.App-input-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.App-form {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.App-form-input {
+    flex:1;
+    width: 80%;
+}
+
+.App-form-input {
+    width: 20%;
+}
+
+.navStyle {
+    padding: 20px;
+    background-color: #2b4775;
+    text-align: left;
+}
+
+.navStyle a {
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
